@@ -7,3 +7,11 @@ Simply said hash functions creates with help of a given input an abstract output
 ##### Explanation-Diagram of hash functions
 
 ![Hashfruntion explanation diagram](https://github.com/JoBo33/Hashfunctions/blob/main/Hash%20functions%20explanation%20diagram.png "Hashfunction explanation diagram")
+
+## GUI-concept
+
+![GUI-design](https://github.com/JoBo33/Hashfunctions/blob/main/Gui-design%20example.png "GUI-design")
+
+On the top is on the one hand a combo box to choose the algorithm you would like to use and an the other hand the generate button to get the specific hash values. On the buttom you can use the textbox on the left side for the input and on the right side you can see the the hash values after pushing the generate button.
+
+
