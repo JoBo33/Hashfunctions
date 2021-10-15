@@ -14,4 +14,13 @@ Simply said hash functions creates with help of a given input an abstract output
 
 On the top is on the one hand a combo box to choose the algorithm you would like to use and an the other hand the generate button to get the specific hash values. On the buttom you can use the textbox on the left side for the input and on the right side you can see the the hash values after pushing the generate button.
 
+## Polynomial rolling hash function
+
+> H(s0, s1, …, sk) = (s0 _ pk-1 + s1 _ pk-2 + … + sk * p0 ) mod M
+
+Using this formula, hash values of strings can be generated.  
+**s** are the different parts of the string.  
+**p** is a constant prime number. It should be choosen as the highest prime number smaller than the possible different input characters (i. e. input character = lowercase letters of the English alphabet -> p should be 31).   
+**k** is the length of the input string.  
+**M** is the probability that two random strings collide is inversely proportional to m. So m should be a large prime number. 
 
