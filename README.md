@@ -27,3 +27,8 @@ Using this formula, hash values of strings can be generated.
 ## String folding
 
 In contrast to the polinomial rolling hash function devides the string holding hash funtion the input string in larger parts (not every character). For example, the every part could be have the length 8. After that the integer value of each part gets added together. At the end, the sum is converted with the modulus operator.
+
+## Fibonacci hash
+
+Fibonacci hash is a fast hash function to get the hash values of an integer input. The reason that it is fast is that it avoids the modulo operator. Fibonacci hash works with the bitshift operator instead. So one just have to multiply the input with 11400714819323198485 and shift right, leaving as many bits as desired. 11400714819323198485 is computed by the following Calculation:
+> 2^64 / ((1 + √5) ÷ 2) =  11400714819323198485
