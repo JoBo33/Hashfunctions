@@ -70,6 +70,7 @@ public:
         comboBoxAlgorithms = new QComboBox(groupBox);
         comboBoxAlgorithms->addItem(QString());
         comboBoxAlgorithms->addItem(QString());
+        comboBoxAlgorithms->addItem(QString());
         comboBoxAlgorithms->setObjectName(QString::fromUtf8("comboBoxAlgorithms"));
 
         horizontalLayout->addWidget(comboBoxAlgorithms);
@@ -149,6 +150,7 @@ public:
         label->setText(QCoreApplication::translate("Hash", "Algorithm", nullptr));
         comboBoxAlgorithms->setItemText(0, QCoreApplication::translate("Hash", "Polinomial rolling hash function", nullptr));
         comboBoxAlgorithms->setItemText(1, QCoreApplication::translate("Hash", "String folding", nullptr));
+        comboBoxAlgorithms->setItemText(2, QCoreApplication::translate("Hash", "Fibonacci hash", nullptr));
 
         buttonGenerate->setText(QCoreApplication::translate("Hash", "Generate", nullptr));
         label_5->setText(QCoreApplication::translate("Hash", "Input", nullptr));

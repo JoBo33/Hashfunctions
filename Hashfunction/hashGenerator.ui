@@ -62,6 +62,11 @@
             <string>String folding</string>
            </property>
           </item>
+          <item>
+           <property name="text">
+            <string>Fibonacci hash</string>
+           </property>
+          </item>
          </widget>
         </item>
         <item>

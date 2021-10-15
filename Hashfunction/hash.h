@@ -13,6 +13,8 @@ public:
     explicit hash(QWidget *parent = nullptr);
     void polinomialRolling();
     void stringFolding();
+    void fibonacciHash();
+    void missingInputException();
 
 signals:
 
