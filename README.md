@@ -24,3 +24,6 @@ Using this formula, hash values of strings can be generated.
 **k** is the length of the input string.  
 **M** is the probability that two random strings collide is inversely proportional to m. So m should be a large prime number. 
 
+## String folding
+
+In contrast to the polinomial rolling hash function devides the string holding hash funtion the input string in larger parts (not every character). For example, the every part could be have the length 8. After that the integer value of each part gets added together. At the end, the sum is converted with the modulus operator.
