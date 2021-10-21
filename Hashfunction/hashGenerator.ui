@@ -207,5 +207,22 @@
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>textEditInput</sender>
+   <signal>textChanged()</signal>
+   <receiver>textEditOutput</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>196</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

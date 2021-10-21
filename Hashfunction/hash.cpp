@@ -7,7 +7,6 @@ hash::hash(QWidget *parent) : QWidget(parent)
     setupUi(this);
 
     connect(buttonGenerate, SIGNAL(clicked()), this, SLOT(chooseAlgorithm()));
-    connect(textEditInput, SIGNAL(textEditInput.textChanged()), textEditOutput, SLOT(textEditOutput.setText("")));
 }
 
 void hash::chooseAlgorithm()

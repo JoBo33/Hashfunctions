@@ -139,6 +139,7 @@ public:
 
 
         retranslateUi(Hash);
+        QObject::connect(textEditInput, SIGNAL(textChanged()), textEditOutput, SLOT(clear()));
 
         QMetaObject::connectSlotsByName(Hash);
     } // setupUi
